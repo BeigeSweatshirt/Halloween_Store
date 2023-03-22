@@ -1,16 +1,39 @@
+html {background-image: url(../images/bats.gif);}
 * { font-family: sans-serif;}
 
-img {
+#logo {
     float: left;
-    margin-right: 35px;
+	padding: 0.5em 1em;
+}
+
+header {
+	background-image: linear-gradient(45deg, white 0%, #FFA500 75%, black 100%);
+	border-bottom: 2px solid black;
+	padding: 1em 0;
+}
+
+header h2{font-size: 250%;
+color: black;
+line-height: 3px;
 }
 
 #title {
-    color: orange;
-    font-size: 225%;
-    text-shadow: 2px 2px black;
-    font-style: italic;
+    font-size: 200%;
 }
+
+aside {
+	float: left;
+	width: 160px;
+	height: 600px;
+	padding-right: 1em;
+}
+
+h3{
+	font-size: 125%;
+	text-indent: 1px;
+	line-height: 3px;
+	 }
+	 
 
 h1 {
     font-size: 150%;
@@ -31,8 +54,21 @@ li {
 a:focus, a:hover {
     color: green;
 }
+main {
+	margin: 0px 25px;
+}
+
+body {
+	width: 800px;
+	margin: 1em auto;
+	background: white;
+	box-shadow: 2px 12px 16px 12px black;
+}
 
 footer {
-    font-size: 75%;
+	background-image: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	border-top: 2px solid black;
+	font-size: 75%;
     text-align: center;
+	clear: left;
 }
