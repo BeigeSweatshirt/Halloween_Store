@@ -1,0 +1,38 @@
+* { font-family: sans-serif;}
+
+img {
+    float: left;
+    margin-right: 35px;
+}
+
+#title {
+    color: orange;
+    font-size: 225%;
+    text-shadow: 2px 2px black;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 150%;
+}
+h1::first-letter {
+    font-size: 200%;
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 0.25em;
+}
+
+a:focus, a:hover {
+    color: green;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+}
